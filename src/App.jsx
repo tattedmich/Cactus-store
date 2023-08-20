@@ -1,12 +1,14 @@
+import CartWidget from "./components/CartWidget"
+import ItemListContainer from "./components/ItemListContainer"
+import NavBar from "./components/NavBar"
 
-import './App.css'
-
-function App() {
-
-
+const App = () => {
   return (
     <>
-      
+    <div>App</div>
+    <CartWidget/>
+    <ItemListContainer/>
+    <NavBar/>
     </>
   )
 }
