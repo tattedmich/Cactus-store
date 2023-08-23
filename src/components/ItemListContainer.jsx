@@ -1,8 +1,13 @@
+import { Box, Flex } from '@chakra-ui/react'
 import React from 'react'
 
-const ItemListContainer = () => {
+const ItemListContainer = ({greeting}) => {
   return (
-    <div>ItemListContainer</div>
+    <Flex p='7'>
+        <Box>
+            <h1>{greeting}</h1>
+        </Box>
+    </Flex>
   )
 }
 
